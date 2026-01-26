@@ -1,0 +1,2 @@
+# skolske poznamky
+moskove poznamky
