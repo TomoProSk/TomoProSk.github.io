@@ -23,6 +23,6 @@ fetch("data.json")
     }
   });
 
- if (window.innerWidth <= 600) {
+ if (window.innerWidth <= 800) {
     document.getElementById("style").href = "mobileStyle.css";
   }
