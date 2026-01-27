@@ -26,3 +26,6 @@ fetch("data.json")
  if (window.innerWidth <= 768) {
     document.getElementById("style").href = "mobileStyle.css";
   }
+
+  window.onload = styleSwitch;
+  window.onresize = styleSwitch;
