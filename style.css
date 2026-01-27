@@ -33,6 +33,7 @@ h1 {
 }
 
 .section h2 {
+  text-align: center;
   color: #38bdf8;
   margin: 1%;
 }
