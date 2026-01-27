@@ -8,12 +8,12 @@ body {
 
 header{
   background-color: rgb(12, 29, 134);
-  padding: 20px;
+  padding: 5%;
   text-align: center;
 }
 
 footer{
-  padding: 20px;
+  padding: 4%;
   background-color:rgb(12, 29, 134);
   text-align: center;
   position: fixed;
