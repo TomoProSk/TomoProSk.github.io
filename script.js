@@ -22,3 +22,7 @@ fetch("data.json")
       content.appendChild(section);
     }
   });
+
+ if (window.innerWidth <= 600) {
+    document.getElementById("style").href = "mobileStyle.css";
+  }
