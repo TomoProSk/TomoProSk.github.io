@@ -52,4 +52,13 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: #38bdf8;
+}
+
+#time, #date {
+  text-align: center;
+  display: block;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  color: #94a3b8;
 }
