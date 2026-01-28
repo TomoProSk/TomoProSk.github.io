@@ -1,26 +1,142 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Školské poznámky</title>
-  <link rel="stylesheet" id="style" href="style.css">
-</head>
-<body onload="startTime()">
-  <header>Tomáš Moško</header>
-  <h1>📚 Moje školské poznámky</h1>
-  <p id="date"><script>document.write(new Date().toLocaleDateString())</script></p>
-  <p id="time"><script>document.write(new Date().toLocaleTimeString())</script></p>
-  <script>
-    function startTime() {
-      const timeElement = document.getElementById('time');
-      setInterval(() => {
-        timeElement.textContent = new Date().toLocaleTimeString();
-      }, 1000);
-    }
-  </script>
-  <div id="content"></div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poznámky - Hlavná stránka</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e5e7eb;
+            padding: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
 
-  <script src="script.js"></script>
-  <footer>Voľne šíriteľné</footer>
+        h1 {
+            color: #38bdf8;
+            border-bottom: 3px solid #38bdf8;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        h2 {
+            color: #60a5fa;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .intro {
+            background: rgba(56, 189, 248, 0.1);
+            border-left: 4px solid #38bdf8;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .section {
+            background: rgba(30, 41, 59, 0.5);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .card {
+            background: rgba(30, 41, 59, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: #e5e7eb;
+            display: block;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+            box-shadow: 0 5px 15px rgba(56, 189, 248, 0.3);
+        }
+
+        .card-title {
+            color: #38bdf8;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .card-description {
+            color: #94a3b8;
+            font-size: 0.95em;
+        }
+
+        .emoji {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        .category {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.2);
+            color: #38bdf8;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            color: #60a5fa;
+            font-size: 1.2em;
+            padding: 40px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="emoji">📚</span>Poznámky zo slovenského jazyka a literatúry</h1>
+
+    <div class="intro">
+        <p><strong>Vitajte v mojich poznámkach!</strong></p>
+        <p>Tu nájdete prehľadne spracované témy z jazyka a literatúry</p>
+    </div>
+
+    <div id="content">
+        <div class="loading">Načítavam poznámky...</div>
+    </div>
+
+    <div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid rgba(56, 189, 248, 0.3); text-align: center; color: #94a3b8;">
+        <p>Vytvorené pre školské účely | Poznámky 2024/2025</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

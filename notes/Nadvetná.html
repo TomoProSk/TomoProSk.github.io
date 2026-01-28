@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadvetná syntax - Poznámky</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e5e7eb;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #38bdf8;
+            border-bottom: 3px solid #38bdf8;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #60a5fa;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #93c5fd;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.4em;
+        }
+
+        h4 {
+            color: #a5b4fc;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .intro {
+            background: rgba(56, 189, 248, 0.1);
+            border-left: 4px solid #38bdf8;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+
+        .note {
+            background: rgba(251, 191, 36, 0.1);
+            border-left: 4px solid #fbbf24;
+            padding: 12px 18px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "▸";
+            color: #38bdf8;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        ul ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        ul ul li:before {
+            content: "◦";
+            color: #60a5fa;
+        }
+
+        .section {
+            background: rgba(30, 41, 59, 0.5);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+
+        .highlight {
+            background: rgba(251, 191, 36, 0.2);
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .example {
+            background: rgba(167, 139, 250, 0.1);
+            border-left: 3px solid #a78bfa;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="emoji">📐</span>Nadvetná (textová) syntax</h1>
+
+    <div class="intro">
+        <p><strong>Nadvetná syntax</strong> je jazykovedná disciplína zaoberajúca sa výstavbou textu</p>
+        <p><strong>Pravidlá textu</strong></p>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">📄</span>Text</h2>
+        
+        <p><span class="highlight">Celistvý súdržný jazykový útvar</span>, prostredníctvom ktorého sa realizuje komunikácia</p>
+        
+        <div class="note">
+            Text je sled jednotlivých viet, spojených navzájom:
+            <ul>
+                <li>Témou (obsahovými prostriedkami)</li>
+                <li>Jazykovednými prostriedkami, ktoré zabezpečujú jeho súdržnosť</li>
+            </ul>
+        </div>
+
+        <h3>Predmet štúdia nadvetnej syntax</h3>
+        <ul>
+            <li>Súdržnosť textu (kodhéznosť)</li>
+            <li>Členenie textu</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🔄</span>Slovosled</h2>
+        
+        <p><strong>Usporiadanie slov vo vete</strong></p>
+        <p>V slovenčine voľnejší</p>
+
+        <h3>Vplývajúce činitele</h3>
+        <ul>
+            <li><strong>Významový (objektívny) slovosled:</strong> východisko → jadro</li>
+            <li><strong>Gramatický</strong> (poradie vetných členov)</li>
+            <li><strong>Rytmický</strong></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🔗</span>Vetosled</h2>
+        
+        <p><strong>Usporiadanie viet v súvetí</strong></p>
+
+        <h3>Pravidlá</h3>
+        <ul>
+            <li>V priraďovacích väčšinou pevné</li>
+            <li>V podraďovacích zvyčajne poradie: <span class="highlight">Hlavná veta → Vedľajšia veta</span></li>
+        </ul>
+
+        <div class="example">
+            <strong>Príklad:</strong><br>
+            "Keď sadra zaschne, vyberieme odliatok" → Vedľajšia veta - Hlavná veta
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🔌</span>Konektory</h2>
+        
+        <p><strong>Prostriedky súdržnosti textu</strong></p>
+
+        <h3>Obsahové prostriedky</h3>
+        <ul>
+            <li>Spoločná téma</li>
+        </ul>
+
+        <h3>Jazykové prostriedky</h3>
+        <ul>
+            <li>Fonetické</li>
+            <li>Morfologické</li>
+            <li>Lexikálne</li>
+        </ul>
+
+        <h3>Jazykové konektory</h3>
+        <ul>
+            <li>Spojky</li>
+            <li>Zámená</li>
+            <li>Častice</li>
+            <li>A tak ďalej</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">📊</span>Členenie textu</h2>
+
+        <h3>Vonkajšia kompozícia</h3>
+        <ul>
+            <li><strong>Prozaický text:</strong> odseky, kapitoly, diely</li>
+            <li><strong>Básnický text:</strong> verš, strofa, spev</li>
+            <li><strong>Dramatický text:</strong> replika, výstup, dejstvo</li>
+        </ul>
+
+        <h3>Vnútorná kompozícia</h3>
+        <p>(Obsahová štruktúra textu)</p>
+    </div>
+
+    <div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid rgba(56, 189, 248, 0.3); text-align: center; color: #94a3b8;">
+        <p>Vytvorené pre školské účely | Nadvetná syntax - Slovenský jazyk</p>
+    </div>
+</body>
+</html>

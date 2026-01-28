@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syntaktické prostriedky - Poznámky</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e5e7eb;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #38bdf8;
+            border-bottom: 3px solid #38bdf8;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #60a5fa;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: #93c5fd;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.4em;
+        }
+
+        h4 {
+            color: #a5b4fc;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .intro {
+            background: rgba(56, 189, 248, 0.1);
+            border-left: 4px solid #38bdf8;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+
+        .note {
+            background: rgba(251, 191, 36, 0.1);
+            border-left: 4px solid #fbbf24;
+            padding: 12px 18px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "▸";
+            color: #38bdf8;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        ul ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        ul ul li:before {
+            content: "◦";
+            color: #60a5fa;
+        }
+
+        ul ul ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        ul ul ul li:before {
+            content: "•";
+            color: #7dd3fc;
+        }
+
+        .section {
+            background: rgba(30, 41, 59, 0.5);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+
+        .highlight {
+            background: rgba(251, 191, 36, 0.2);
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .example {
+            background: rgba(167, 139, 250, 0.1);
+            border-left: 3px solid #a78bfa;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="emoji">🔗</span>Syntaktické prostriedky</h1>
+
+    <div class="intro">
+        <p><strong>Syntaktické prostriedky</strong> zahŕňajú rôzne typy súvetí a vetných konštrukcií</p>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">📝</span>Súvetie</h2>
+
+        <h3>Jednoduché súvetie</h3>
+        <p>Obsahuje iba jednu vetu (nie je súvetím v pravom zmysle)</p>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🔀</span>Priraďovacie súvetie</h2>
+        
+        <div class="note">
+            <strong>Štruktúra:</strong> H1 - H2<br>
+            (hlavná veta je na rovnakej úrovni ako ďalšia hlavná veta)
+        </div>
+
+        <h3>Typy priraďovacích súvetí</h3>
+
+        <h4>1. Zlučovacie</h4>
+        <p>Vety sa zlučujú, pridávajú</p>
+
+        <h4>2. Vylučovacie</h4>
+        <p>Jedna možnosť vylučuje druhú</p>
+
+        <h4>3. Odporovacie</h4>
+        <p>Vety sú v protiklade</p>
+
+        <h4>4. Stupňovacie</h4>
+        <div class="example">
+            <strong>Príklad:</strong> "Nielenže nepíšem, ale aj nečítam"
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">⬇️</span>Podraďovacie súvetie</h2>
+        
+        <div class="note">
+            <strong>Štruktúra:</strong> Hlavná veta (HV) + Vedľajšia veta (VV)<br>
+            Vedľajšia veta je podriadená hlavnej vete
+        </div>
+
+        <h3>Typy vedľajších viet</h3>
+
+        <h4>1. Prísudková vedľajšia veta</h4>
+        <p>Rozvíja prísudok v hlavnej vete</p>
+
+        <h4>2. Podmetová vedľajšia veta</h4>
+        <p>Zastupuje funkciu podmetu</p>
+
+        <h4>3. Predmetová vedľajšia veta</h4>
+        <p>Zastupuje funkciu predmetu</p>
+
+        <h4>4. Prívlastková vedľajšia veta</h4>
+        <div class="example">
+            <strong>Príklad:</strong> "Jánošík, považovaný za národného hrdinu, bol povesený na šibenici"
+        </div>
+
+        <h4>5. Príslovkové vedľajšie vety</h4>
+        <ul>
+            <li><strong>Miesta</strong>
+                <ul>
+                    <li>Odpovedá na otázky: Kde? Kam? Odkiaľ?</li>
+                </ul>
+            </li>
+            <li><strong>Spôsobu</strong>
+                <ul>
+                    <li>Odpovedá na otázky: Ako? Akým spôsobom?</li>
+                </ul>
+            </li>
+            <li><strong>Času</strong>
+                <ul>
+                    <li>Odpovedá na otázky: Kedy? Odkedy? Dokedy?</li>
+                </ul>
+            </li>
+            <li><strong>Príčiny</strong>
+                <ul>
+                    <li>Odpovedá na otázky: Prečo? Z akého důvodu?</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="emoji">🔄</span>Zložené súvetie</h2>
+        
+        <p>Obsahuje viacero hlavných a/alebo vedľajších viet</p>
+        <p>Môže kombinovať priraďovacie aj podraďovacie vzťahy</p>
+    </div>
+
+    <div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid rgba(56, 189, 248, 0.3); text-align: center; color: #94a3b8;">
+        <p>Vytvorené pre školské účely | Syntaktické prostriedky - Slovenský jazyk</p>
+    </div>
+</body>
+</html>

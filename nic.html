@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Školské poznámky</title>
+  <link rel="stylesheet" id="style" href="style.css">
+</head>
+<body onload="startTime()">
+  <header>Tomáš Moško</header>
+  <h1>📚 Moje školské poznámky</h1>
+  <p id="date"><script>document.write(new Date().toLocaleDateString())</script></p>
+  <p id="time"><script>document.write(new Date().toLocaleTimeString())</script></p>
+  <script>
+    function startTime() {
+      const timeElement = document.getElementById('time');
+      setInterval(() => {
+        timeElement.textContent = new Date().toLocaleTimeString();
+      }, 1000);
+    }
+  </script>
+  <div id="content"></div>
+
+  <script src="script.js"></script>
+  <footer>Voľne šíriteľné</footer>
+</body>
+</html>

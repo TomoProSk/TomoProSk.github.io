@@ -1,22 +1,62 @@
 {
-  "Solina": [
+  "Slovenský jazyk": [
     {
-      "title": "Syntax.pdf",
-      "file": "notes/Syntax.pdf"
+      "title": "Syntax",
+      "file": "notes/syntax.html",
+      "description": "Základné jednotky, vetné členy, sklady, druhy viet a súvetia",
+      "emoji": "📝"
     },
     {
-      "title": "syntax.html",
-      "file": "notes/syntax.html"
+      "title": "Nadvetná syntax",
+      "file": "notes/Nadvetná.html",
+      "description": "Pravidlá textu, slovosled, vetosled, konektory a členenie textu",
+      "emoji": "📐"
     },
     {
-      "title": "Vetné členy.pdf",
-      "file": "notes/Vetné členy.pdf"
+      "title": "Syntaktické prostriedky",
+      "file": "notes/Syntaktické_prostriedky.html",
+      "description": "Priraďovacie a podraďovacie súvetia, typy vedľajších viet",
+      "emoji": "🔗"
     }
   ],
-  "Litika":[
+  "Literárna moderna": [
     {
-      "title":"Ivan Krasko",
-      "file":"notes/Ivan Krasko.pdf"
+      "title": "Literárna moderna",
+      "file": "notes/Literárna_moderna.html",
+      "description": "Charakteristika obdobia, smery, lyrika, poézia a kontext doby",
+      "emoji": "🎨"
+    },
+    {
+      "title": "Ivan Krasko",
+      "file": "notes/Ivan_Krasko.html",
+      "description": "Zakladateľ slovenskej moderny, symbolizmus, znaky poetiky",
+      "emoji": "📖"
+    },
+    {
+      "title": "Janko Jesenský",
+      "file": "notes/Janko_Jesenský.html",
+      "description": "Kritický realizmus, satira, irónia, motív maškarády",
+      "emoji": "📚"
+    }
+  ],
+  "Medzivojnové obdobie": [
+    {
+      "title": "Román v medzivojnovom období",
+      "file": "notes/Román_v_medzivojnovom_období.html",
+      "description": "Spoločenská situácia, realizmus, charakteristika prózy",
+      "emoji": "📚"
+    },
+    {
+      "title": "Milo Urban",
+      "file": "notes/Milo_Urban.html",
+      "description": "Životopis, románový cyklus, Živý bič",
+      "emoji": "📖"
+    },
+    {
+      "title": "Jozef Cíger Hronský",
+      "file": "notes/Jozef_Cíger_Hronský.html",
+      "description": "Realizmus a expresionizmus, Jozef Mak, emigrácia",
+      "emoji": "📖"
     }
   ]
 }
