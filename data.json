@@ -17,6 +17,12 @@
       "file": "notes/Syntaktické_prostriedky.html",
       "description": "Priraďovacie a podraďovacie súvetia, typy vedľajších viet",
       "emoji": "🔗"
+    },
+    {
+      "title": "Polovetné konštrukcie",
+      "file": "notes/Polovetné_konštrukcie.html",
+      "description": "Poloprísudky, druhy polovetných konštrukcií, pravidlá čiarky",
+      "emoji": "✏️"
     }
   ],
   "Literárna moderna": [
@@ -47,16 +53,34 @@
       "emoji": "📚"
     },
     {
+      "title": "Veľká epická próza",
+      "file": "notes/Veľká_epická_próza.html",
+      "description": "Román, stratená generácia, expresionizmus, Remarque",
+      "emoji": "📕"
+    },
+    {
       "title": "Milo Urban",
       "file": "notes/Milo_Urban.html",
-      "description": "Životopis, románový cyklus, Živý bič",
+      "description": "Životopis, románový cyklus",
       "emoji": "📖"
+    },
+    {
+      "title": "Živý bič",
+      "file": "notes/Živý_bič_detail.html",
+      "description": "Detailná analýza diela, postavy, kompozícia",
+      "emoji": "⚔️"
     },
     {
       "title": "Jozef Cíger Hronský",
       "file": "notes/Jozef_Cíger_Hronský.html",
-      "description": "Realizmus a expresionizmus, Jozef Mak, emigrácia",
+      "description": "Realizmus a expresionizmus, emigrácia",
       "emoji": "📖"
+    },
+    {
+      "title": "Jozef Mak",
+      "file": "notes/Jozef_Mak_detail.html",
+      "description": "Detailná analýza diela, postavy, dejová osnova, žáner",
+      "emoji": "📘"
     }
   ]
 }
