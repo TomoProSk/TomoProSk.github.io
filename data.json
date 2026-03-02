@@ -96,23 +96,23 @@
     }
   ],
   "Avantgarda":[
-    {
-  "title": "Duchovná lyrika",
-  "file": "notes/Duchovná lyrika.pdf",
-  "description": "Žalmy, hymny, modlitby, katolícka moderna",
-  "emoji": "🙏"
-},
-{
-  "title": "Rudolf Dilong",
-  "file": "notes/Rudolf Dilong.pdf",
-  "description": "Katolícka moderna, poetizmus, surrealizmus",
-  "emoji": "✝️"
-},
-{
-  "title": "Surrealizmus",
-  "file": "notes/Surrealizmus.pdf",
-  "description": "Nadreálno, podvedomie, Freud",
-  "emoji": "🌀"
-}
-  ]
+  {
+    "title": "Duchovná lyrika",
+    "file": "notes/duchovná lyrika.html",
+    "description": "Žalmy, hymny, modlitby, katolícka moderna",
+    "emoji": "🙏"
+  },
+  {
+    "title": "Rudolf Dilong",
+    "file": "notes/Rudolf_Dilong.html",
+    "description": "Katolícka moderna, poetizmus, surrealizmus",
+    "emoji": "✝️"
+  },
+  {
+    "title": "Surrealizmus",
+    "file": "notes/Surrealizmus.html",
+    "description": "Nadreálno, podvedomie, Freud",
+    "emoji": "🌀"
+  }
+    ]
 }
