@@ -113,6 +113,12 @@
     "file": "notes/surrealizmus.html",
     "description": "Nadreálno, podvedomie, Freud",
     "emoji": "🌀"
+  },
+  {
+    "title": "Poézia a lyrika",
+    "file": "notes/poezia_a_lyrika.html",
+    "description": "Základné pojmy, rozdelenie, rýmy, veršové systémy",
+    "emoji": "📜"
   }
     ]
 }
