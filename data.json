@@ -94,5 +94,25 @@
       "description": "Detailná analýza diela, postavy, dejová osnova, žáner",
       "emoji": "📘"
     }
+  ],
+  "Avantgada":[
+    {
+  "title": "Duchovná lyrika",
+  "file": "notes/Duchovná_lyrika.pdf",
+  "description": "Žalmy, hymny, modlitby, katolícka moderna",
+  "emoji": "🙏"
+},
+{
+  "title": "Rudolf Dilong",
+  "file": "notes/Rudolf_Dilong.pdf",
+  "description": "Katolícka moderna, poetizmus, surrealizmus",
+  "emoji": "✝️"
+},
+{
+  "title": "Surrealizmus",
+  "file": "notes/Surrealizmus.html",
+  "description": "Nadreálno, podvedomie, Freud",
+  "emoji": "🌀"
+}
   ]
 }
