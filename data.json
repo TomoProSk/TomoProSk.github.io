@@ -93,6 +93,31 @@
       "file": "notes/Jozef_Mak_detail.html",
       "description": "Detailná analýza diela, postavy, dejová osnova, žáner",
       "emoji": "📘"
+    },
+    {
+      "title": "Krátka epická próza",
+      "file": "notes/Krátka_epická_próza_medz._ob.-novela.html",
+      "description": "Novela, realistické línie, socialistický realizmus a Peter Jilemnický",
+      "emoji": "📜"
+    }
+    ,
+    {
+      "title": "Próza naturizmu",
+      "file": "notes/Próza_naturizmu.html",
+      "description": "Znaky naturizmu, čas a priestor, biologický čas a mýtické prvky",
+      "emoji": "🌲"
+    },
+    {
+      "title": "Lyrizovaná próza",
+      "file": "notes/Lyrizovaná_próza.html",
+      "description": "Vyjadrovanie citov, potlačená dejovosť a hlavní predstavitelia",
+      "emoji": "📖"
+    },
+    {
+      "title": "Dobroslav Chrobák",
+      "file": "notes/Dobroslav_Chrobák.html",
+      "description": "Znaky tvorby, Kamarát Jašek, Drak sa vracia",
+      "emoji": "🏔️"
     }
   ],
   "Avantgarda":[
